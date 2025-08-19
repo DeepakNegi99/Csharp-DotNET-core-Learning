@@ -1,0 +1,26 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/LearningCSharp/Using.cs
+*.db
+*.db-shm
+*.db-wal
+*.v2
+*.vsidx
+*.json
+*.dll
+*.exe
+*.pdb
+*.csproj
+*.sln
+*.txt
+*.cache
+*.editorconfig
+*.BuildWithSkipAnalyzers
+*.targets
+*.props
+LearningCSharp/obj/Debug/net8.0/LearningCSharp.GlobalUsings.g.cs
+LearningCSharp/obj/Debug/net8.0/LearningCSharp.AssemblyInfo.cs
+/LearningCSharp/obj/Debug/net8.0
+/LearningCSharp/.vs
