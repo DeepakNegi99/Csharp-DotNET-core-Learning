@@ -6,11 +6,24 @@ namespace LearningCSharp
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("    /|");
-            Console.WriteLine("   / | ");
-            Console.WriteLine("  /  |");
-            Console.WriteLine("  ___");
+            string name = "Deepak Negi";
+            char grade = 'A';
+            int age = 28;
+            bool isMale = false;
 
+            //string name = Console.ReadLine();
+
+            //Console.WriteLine(name);
+            //Convert.ToString(age);
+
+             SayHi(name);
+
+
+        }
+
+        static void SayHi(string name)
+        {
+            Console.WriteLine("Hi"+ name);
         }
     }
 }
